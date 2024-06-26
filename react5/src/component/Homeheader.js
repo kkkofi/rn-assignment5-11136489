@@ -16,7 +16,7 @@ const headerBackground = isDarkTheme ? '#161622' : '#fff';
         <View style={styles.header}>
             <View style={styles.box}>
             <Image
-                source = {require('../assets/profile.png')}
+                source = {require('../../assets/profile.png')}
                 style= {styles.profilePicture}
             /> 
             <View style={styles.userInfo}>
@@ -25,7 +25,7 @@ const headerBackground = isDarkTheme ? '#161622' : '#fff';
             </View>
             <View style={[styles.searchIcons, {backgroundColor: iconBackgroundColor}]}>
                 <Image
-                    source={isDarkTheme? require('../assets/w-search.png'): require('../../assets/search.png')}
+                    source={isDarkTheme? require('../../assets/w-search.png'): require('../../assets/search.png')}
                 />
             </View>
             
